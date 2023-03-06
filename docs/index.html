@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Food for home</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="./general-base.css" />
+    </head>
+    <body>
+        <section class="container">
+            <div Id="paginaPrincipal">
+                <!-- Header -->
+                <header >
+                        <div class="menu-superior">
+                            <img class="logo" src="Img/Header/Logo.png" alt="LogoFoodHouse">
+                            <button class="buttonnav"> <img class="imgnav" src="Img/Header/menu.svg" alt="menu"></button>
+                        </div>
+                        <h1 class="titulo-header">Food For Home</h1>
+                        <p class="textoHeader">Escoja sus productos y añadalos al carro.</p>
+                </header>
+                <!-- ---------------------- -->
+
+                
+                <!-- Nav -->
+                <nav class="categorias" >
+                    <div class="categorias-slider">
+                        <button onclick="impTop()" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/Populars.svg" alt="Populars">
+                            <p class="SeccionesNav">Top Sales</p>
+                        </button>
+                    </div>
+                    <div class="categorias-slider">
+                        <button onclick="impFiltros('Breakfast')" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/breakfast.svg" alt="Breakfast">
+                            <p class="SeccionesNav2">Breakfast</p>
+                        </button>
+                    </div>
+                    <div class="categorias-slider">
+                        <button onclick="impFiltros('Fast Food')" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/fast-food.svg" alt="Fast Food">
+                            <p class="SeccionesNav">Fast Food</p>
+                        </button>
+                    </div>
+                    <div class="categorias-slider">
+                        <button onclick="impFiltros('Dinner')" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/roast-chicken.svg" alt="Dinner">
+                            <p class="SeccionesNav3">Dinner</p>
+                        </button>
+                    </div> 
+                    <div class="categorias-slider">
+                        <button onclick="impFiltros('Desserts')" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/tarta-de-queso.svg" alt="Desserts">
+                            <p class="SeccionesNav2">Desserts</p>
+                        </button>
+                    </div>
+                    <div class="categorias-slider">
+                        <button onclick="impFiltros('Drinks')" class="button-slider">
+                            <img class="imgcat" src="Img/Categorias/bebidas.svg" alt="Drinks">
+                            <p class="SeccionesNav3">Drinks</p>
+                        </button>  
+                    </div>
+                </nav>
+                <!-- ----------------------------- -->
+
+                <!-- Main -->
+
+                <main class= "platos">
+                </main>
+
+                <!-- ---------------------------------- -->
+                        
+                <!-- Footer -->
+                <footer class="containerFooter">
+                    <nav class="navfooter">
+                        <img class="tamañoimgfooter" src="Img/Footer/home.svg">
+                        <img class="tamañoimgfooter" src="Img/Footer/bolsa.svg">
+                        <button class="button-compra" onclick="mostrarCarrito()" >
+                            <img class="imgbutton-compra" src="Img/Footer/Carrito.png">
+                        </button>
+                        <img class="tamañoimgfooter" src="Img/Footer/corazon.svg">
+                        <img class="tamañoimgfooter" src="Img/Footer/usuario.svg">   
+                    </nav>
+                </footer>
+            </div>
+
+            <!-- --------------------------------------- -->
+            <!-- --------------------------------------- -->
+            <!-- CARRITO -->
+
+            <div class="carrito-compra" >
+                <!-- Header Carrito -->
+                <header id="topCarrito">
+                    <div class="menu-superior">
+                        <img class="logo" src="Img/Header/Logo.png" alt="LogoFoodHouse">
+                            <button class="buttonNavCarrito" onclick="mostrarPrincipal()" > 
+                                <img class="imgnav" src="Img/Header/arrow-back.png" alt="back">
+                            </button>
+                    </div>
+                    <div class="menu-inferior">
+                        <p class="cart-title">My cart</p>
+                        <button class="buttoneliminarcompra" onclick="vaciarCarrito()">
+                            <img class="imgeliminar" src="Img/Header/eliminar.svg" alt="tacho-basura">
+                        </button>
+                    </div>  
+                </header>
+                <!-- ---------------------- -->
+
+                <!-- Main Carrito -->
+                <main class= "platosCarrito">
+                </main>
+                <!-- ---------------------------------- -->
+        
+                <!-- Footer Carrito-->
+                <footer class="navfootercarrito" >
+                </footer>
+                <!-- --------------------------------------- -->
+            </div>
+        </section>
+        <script src="js-content/imprimirNav.js"></script> 
+        <script src="js-content/displayCarro.js"></script> 
+        <script src="js-content/contadores.js"></script>
+        <script src="js-content/factura.js"></script>  
+    </body>
+</html>

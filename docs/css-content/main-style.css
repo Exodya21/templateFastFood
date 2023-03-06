@@ -1,0 +1,120 @@
+main {
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(202, 202, 202, 0);
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.platos {
+    margin-bottom: 95px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.plato-individual{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.img-plato{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plato-contenido{
+    margin-left: 2%;
+    width: 50%;
+    padding-top: 8px;
+}
+
+.nombre-plato {
+    width: 100%;
+    font-size: calc(1.1em + 1vw);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Public Sans', sans-serif ;
+}
+
+.precio-plato{
+    width: 100%;
+    font-size: calc(0.9em + 1vw);
+    color:rgba(233, 128, 63, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Public Sans', sans-serif ;
+}
+
+.descripcion-plato{
+    width: 100%;
+    font-size: calc(0.7em + 1vw);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #A9A8AE;
+    overflow: hidden;
+    max-width: 17ch;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-family: 'Public Sans', sans-serif ;
+}    
+
+.plato-comida {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.nombreYcontador {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contador {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.menos, .mas {
+    border: none;
+    background-color: rgb(243, 243, 243);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signo+{
+    position: relative;
+}
+ .signo-{
+     position: relative;
+     font-size: 35px;
+     margin-left: -2px;
+     top: -6px;
+ }
+
+ .numeroContador{
+     width: 22px;
+     height: 40px;
+     border: none;
+     display: flex;
+     text-align: center;
+     padding: 0;
+
+ }
+
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* --------------- CARRITO --------------- -->*/
+

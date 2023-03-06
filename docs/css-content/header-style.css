@@ -1,0 +1,84 @@
+
+
+.menu-superior{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 3%;
+    align-items: center;
+}
+
+.logo {
+    height: 25%;
+    width: 25%;
+}
+
+.buttonnav{
+    border: none;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.imgnav{
+    width: 15%;
+}
+
+.titulo-header{
+    font-family: 'Public Sans', sans-serif ;
+    font-size: 40pt;
+    font-style: bold;
+    margin: 0% 0% 0% 0%;
+}
+
+.textoHeader {
+    font-family: 'Public Sans', sans-serif ;
+    font-size: 1.2em;
+    font-style: medium;
+    color: #A9A8AE;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* --------------------------------------- -->*/
+/* ---------------CARRITO ---------------- -->*/
+
+.buttonNavCarrito{
+    border: none;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menu-inferior{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cart-title{
+    font-family: 'Public Sans', sans-serif ;
+    font-size: calc(1.2em + 1vw);
+    font-weight: 600;
+    width: 185px;
+    
+}
+
+.buttoneliminarcompra{
+    border: none;
+    background-color: #FFFFFF;
+    display:flex;
+    padding: 0px;
+    position: relative;
+    right: 75px;
+}
+
+.imgeliminar{
+    width: 50px;
+}
